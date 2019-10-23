@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-lookup-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getLookupItems/GetLookupItemsWebPart.js",
+          "manifest": "./src/webparts/getLookupItems/GetLookupItemsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetLookupItemsWebPartStrings": "lib/webparts/getLookupItems/loc/{locale}.js"
+  }
+}
